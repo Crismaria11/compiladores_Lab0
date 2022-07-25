@@ -1,3 +1,6 @@
+from pruebaVisitor import pruebaVisitor
+
+
 class SymbolTable:
     def __init__(self):
         self.symbol_list = []
@@ -12,10 +15,4 @@ class SymbolTable:
         return self.symbol_list[index]
 
 
-class Symbol:
-    def __init__(self, position, symbol_id, symbol_type, value):
-        self.position = position
-        self.symbol_id = symbol_id
-        self.symbol_type = symbol_type
-        self.value = value
 
