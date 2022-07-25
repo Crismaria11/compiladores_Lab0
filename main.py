@@ -5,6 +5,7 @@ from dist.pruebaParser import pruebaParser
 from dist.pruebaVisitor import pruebaVisitor
 
 if __name__ == "__main__":
+    print("Crismaria11 es hacker")
     if len(sys.argv) > 1:
         data = FileStream(sys.argv[1])
     else:
