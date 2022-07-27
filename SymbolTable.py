@@ -1,5 +1,14 @@
 from pruebaVisitor import pruebaVisitor
+import structureTypes as structures
 
+
+
+class antlrVisitor(pruebaVisitor):
+
+    def visitProgram(self, ctx):
+        self.visitChildren(ctx)
+
+        # Last scope is main
 
 class SymbolTable:
     def __init__(self):

@@ -10,6 +10,13 @@ class Scope:
         self.scope_type = scope_type
         self.parameters = parameters
         self.symbols = []
+        self.child_scopes = []
+
+    def get_scope(self, name):
+        for instance in self.child_scopes:
+            if instance.name == name:
+                return instance
+
 
 # Symbol definition
 class Symbol:
