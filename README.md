@@ -1,4 +1,4 @@
-# compiladores_Lab0
+# compiladores_Lab1
 
 ### Generación de analizador léxico y sintáctico
 antlr4 -Dlanguage=Python3 prueba.g4 -visitor
@@ -6,8 +6,7 @@ antlr4 -Dlanguage=Python3 prueba.g4 -visitor
 ### Generación de árbol
 pygrun prueba program --tree test.cl
 
-### Video
-https://drive.google.com/file/d/1xMJ2hRhRf6Wtdn7zvJrGk5Z1KOzaB1j8/view?usp=sharing
-
 ### Video Youtube
-https://youtu.be/GzuRe6ou87c
+https://youtu.be/HtN7WrZwztE
+
+https://youtu.be/XOeo8gms6tk
